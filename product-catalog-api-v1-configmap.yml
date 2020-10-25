@@ -24,7 +24,7 @@ data:
         producer:
           retries: 3
           properties:
-            retry.backoff.ms: 10000
+            retry.backoff.ms: 1000
             max.block.ms: 6000
             delivery.timeout.ms: 40000
             reconnect.backoff.ms: 50000
